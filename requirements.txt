@@ -1,0 +1,23 @@
+# Data Wrangling Libraries
+pandas
+numpy
+
+# Data Visualization
+matplotlib
+Seaborg
+
+# External Data Vendor APIs
+yfinance
+
+# Data Modelling & Statistical Testing Libraries
+statsmodels
+sklearn
+pmdarima
+lightgbm
+xgboost
+keras
+tensorflow
+
+# SHAP
+numba
+shap
