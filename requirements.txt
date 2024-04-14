@@ -1,23 +1,23 @@
-# Data Wrangling Libraries
+### Benchmark Model
+
+cvxopt
+requests
+Empyrial
+pandas_market_calendars
+ipython-extensions
+yfinance
+matplotlib
 pandas
 numpy
-
-# Data Visualization
-matplotlib
-Seaborg
-
-# External Data Vendor APIs
-yfinance
-
-# Data Modelling & Statistical Testing Libraries
-statsmodels
-sklearn
-pmdarima
-lightgbm
-xgboost
-keras
+collections
+bs4
+warnings
+os
+random
+time
+tqdm
+mpl_toolkits
+scipy
 tensorflow
-
-# SHAP
-numba
-shap
+datetime
+typing
