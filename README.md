@@ -7,17 +7,22 @@ Authored by: Pratanu Mitra
 3. Our project stands out with its innovative approach in Comparative Analytics - pitting Machine Learning against Genetic algorithms - with the ultimate goal of maximising alpha and showcasing our cutting-edge techniques.
 
 **Repository**
-1. _ETL
-2. _ModelTraining
-	a. Machine Learners
-	b. Genetic Algorithm (proprietary)
-3. _ModelEvaluation
-4. _CausalInference
-	a. LIME
-	b. SHAP
-	c. PDP
-	d. IV
-5. _FilePathProperties
+1. _benchmarkModel: Genetic Algorithm (proprietary)
+	a. _ETL
+	b. _model
+	c. _graphics
+	d. _implementation
+	e. _data
+	f. _charts
+	g. __pycache__
+2. _championModel: Machine Learners (proprietary)
+	a. _modelTraining
+	b. _modelEvaluation
+	c. _causalInference
+   		I. LIME
+		II. SHAP
+		III. PDP
+		IV. IV
 
 **Outputs**
 1. _dataExtracts
