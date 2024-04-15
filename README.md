@@ -19,11 +19,12 @@ Authored by: Pratanu Mitra
 	a. _modelTraining </br>
 	b. _modelEvaluation </br>
 	c. _causalInference </br>
- 		I. LIME </br>
-		II. SHAP </br>
-		III. PDP </br>
-		IV. IV </br>
-
+	<ol>
+ 		<lI> LIME </lI>
+		<lI> SHAP </lI>
+		<lI> PDP </lI>
+		<lI> IV </lI>
+	</ol>
 **Outputs**
 1. _dataExtracts
 2. _dataTransforms
