@@ -19,7 +19,7 @@ Authored by: Pratanu Mitra
 	a. _modelTraining </br>
 	b. _modelEvaluation </br>
 	c. _causalInference </br>
-   		I. LIME </br>
+ 		I. LIME </br>
 		II. SHAP </br>
 		III. PDP </br>
 		IV. IV </br>
