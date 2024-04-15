@@ -7,7 +7,7 @@ Authored by: Pratanu Mitra
 3. Our project stands out with its innovative approach in Comparative Analytics - pitting Machine Learning against Genetic algorithms - with the ultimate goal of maximising alpha and showcasing our cutting-edge techniques.
 
 **Repository**
-1. _benchmarkModel: Genetic Algorithm (proprietary)
+1. _benchmarkModel: Genetic Algorithm (proprietary) </br>
 	a. _ETL  
 	b. _model
 	c. _graphics
