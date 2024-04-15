@@ -8,21 +8,21 @@ Authored by: Pratanu Mitra
 
 **Repository**
 1. _benchmarkModel: Genetic Algorithm (proprietary) </br>
-	a. _ETL  
-	b. _model
-	c. _graphics
-	d. _implementation
-	e. _data
-	f. _charts
-	g. __pycache__
-2. _championModel: Machine Learners (proprietary)
-	a. _modelTraining
-	b. _modelEvaluation
-	c. _causalInference
-   		I. LIME
-		II. SHAP
-		III. PDP
-		IV. IV
+	a. _ETL </br> 
+	b. _model </br>
+	c. _graphics </br>
+	d. _implementation </br>
+	e. _data </br>
+	f. _charts </br>
+	g. __pycache__ </br>
+2. _championModel: Machine Learners (proprietary) </br>
+	a. _modelTraining </br>
+	b. _modelEvaluation </br>
+	c. _causalInference </br>
+   		I. LIME </br>
+		II. SHAP </br>
+		III. PDP </br>
+		IV. IV </br>
 
 **Outputs**
 1. _dataExtracts
