@@ -8,7 +8,7 @@ Authored by: Pratanu Mitra
 
 **Repository**
 1. _benchmarkModel: Genetic Algorithm (proprietary)
-	a. _ETL
+	a. _ETL  
 	b. _model
 	c. _graphics
 	d. _implementation
