@@ -1,0 +1,6 @@
+,Logistic
+Train_Accuracy,0.5160642570281124
+Train_Precision,0.5739130434782609
+Train_Recall,0.48
+Train_F1-Score,0.5227722772277228
+Train_ROC_AUC_Score,0.5401651039543416

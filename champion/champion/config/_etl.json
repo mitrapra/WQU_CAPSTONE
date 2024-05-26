@@ -1,0 +1,21 @@
+{
+    "data_loading": {
+        "VIX_Ticker_Name": "^VIX",
+        "EQ_Ticker_Name": "SPY",
+        "start_date": "2012-01-01",
+        "end_date": "2024-03-31",
+        "download_interval": "1d",
+        "col_name": "Adj Close",
+        "EQ_Ticker_Name_Stress": "SPY",
+        "stress_start_date": "2007-07-01",
+        "stress_end_date": "2009-12-31"
+    },
+    "data_processing": {
+        "window_period": 12,
+        "target_benchmark": 0.000022064041902008153,
+        "lags": 12
+    },
+    "train_test_split": {
+        "train_size": 0.65
+    }
+}

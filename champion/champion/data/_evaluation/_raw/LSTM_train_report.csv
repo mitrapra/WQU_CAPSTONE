@@ -1,0 +1,6 @@
+,LSTM
+Train_Accuracy,0.5522088353413654
+Train_Precision,0.5522088353413654
+Train_Recall,1.0
+Train_F1-Score,0.7115135834411384
+Train_ROC_AUC_Score,0.5

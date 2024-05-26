@@ -1,0 +1,186 @@
+{
+    "random_state": 43860714,
+    "Logistic_Regression": {
+        "target_variable": "target",
+        "explanatory_variables": [
+            "RSI",
+            "lag_1",
+            "lag_2",
+            "lag_3",
+            "lag_4",
+            "lag_5",
+            "lag_6",
+            "lag_7",
+            "lag_8",
+            "lag_9",
+            "lag_10",
+            "lag_11",
+            "lag_12"
+        ],
+        "prediction_benchmark": 0.552209,
+        "name": "Logistic"
+    },
+    "ARIMA": {
+        "time-series": "SPY",
+        "exogenous": "RSI",
+        "prediction_benchmark": 0,
+        "name": "ARIMA"
+    },
+    "RandomForest": {
+        "target_variable": "target",
+        "explanatory_variables": [
+            "RSI",
+            "lag_1",
+            "lag_2",
+            "lag_3",
+            "lag_4",
+            "lag_5",
+            "lag_6",
+            "lag_7",
+            "lag_8",
+            "lag_9",
+            "lag_10",
+            "lag_11",
+            "lag_12"
+        ],
+        "prediction_benchmark": 0.552209,
+        "evaluation_metric": "roc_auc",
+        "name": "RandomForest"
+    },
+    "LightGBM": {
+        "target_variable": "target",
+        "explanatory_variables": [
+            "RSI",
+            "lag_1",
+            "lag_2",
+            "lag_3",
+            "lag_4",
+            "lag_5",
+            "lag_6",
+            "lag_7",
+            "lag_8",
+            "lag_9",
+            "lag_10",
+            "lag_11",
+            "lag_12"
+        ],
+        "prediction_benchmark": 0.552209,
+        "evaluation_metric": "roc_auc",
+        "name": "LightGBM"
+    },
+    "XGBoost": {
+        "target_variable": "target",
+        "explanatory_variables": [
+            "RSI",
+            "lag_1",
+            "lag_2",
+            "lag_3",
+            "lag_4",
+            "lag_5",
+            "lag_6",
+            "lag_7",
+            "lag_8",
+            "lag_9",
+            "lag_10",
+            "lag_11",
+            "lag_12"
+        ],
+        "prediction_benchmark": 0.552209,
+        "evaluation_metric": "roc_auc",
+        "name": "XGBoost"
+    },
+    "ANN": {
+        "target_variable": "target",
+        "explanatory_variables": [
+            "RSI",
+            "lag_1",
+            "lag_2",
+            "lag_3",
+            "lag_4",
+            "lag_5",
+            "lag_6",
+            "lag_7",
+            "lag_8",
+            "lag_9",
+            "lag_10",
+            "lag_11",
+            "lag_12"
+        ],
+        "prediction_benchmark": 0.552209,
+        "evaluation_metric": "roc_auc",
+        "name": "ANN"
+    },
+    "LSTM": {
+        "target_variable": "target",
+        "explanatory_variables": [
+            "RSI",
+            "lag_1",
+            "lag_2",
+            "lag_3",
+            "lag_4",
+            "lag_5",
+            "lag_6",
+            "lag_7",
+            "lag_8",
+            "lag_9",
+            "lag_10",
+            "lag_11",
+            "lag_12"
+        ],
+        "prediction_benchmark": 0.552209,
+        "evaluation_metric": "roc_auc",
+        "name": "LSTM"
+    },
+    "Ensemble_Voting": {
+        "target_variable": "target",
+        "explanatory_variables": [
+            "RSI",
+            "lag_1",
+            "lag_2",
+            "lag_3",
+            "lag_4",
+            "lag_5",
+            "lag_6",
+            "lag_7",
+            "lag_8",
+            "lag_9",
+            "lag_10",
+            "lag_11",
+            "lag_12"
+        ],
+        "prediction_benchmark": 0.552209,
+        "name": "Ensemble Voting",
+        "estimator": [
+            "Logistic_Regression",
+            "RandomForest",
+            "LightGBM",
+            "XGBoost"
+        ]
+    },
+    "Ensemble_Stacking": {
+        "target_variable": "target",
+        "explanatory_variables": [
+            "RSI",
+            "lag_1",
+            "lag_2",
+            "lag_3",
+            "lag_4",
+            "lag_5",
+            "lag_6",
+            "lag_7",
+            "lag_8",
+            "lag_9",
+            "lag_10",
+            "lag_11",
+            "lag_12"
+        ],
+        "prediction_benchmark": 0.552209,
+        "name": "Ensemble Stacking",
+        "estimator": [
+            "Logistic_Regression",
+            "RandomForest",
+            "LightGBM",
+            "XGBoost"
+        ]
+    }
+}
